@@ -1,11 +1,10 @@
 <?php
-namespace Interface;
+namespace Interfaces;
 
-// Interface que define os metodos necessarios para um veiculo ser locavel
+// Interface que define os métodos necessários para um veículo ser locável
 
-interface locavel {
+interface Locavel {
     public function alugar() : string;
-    public function delvolver() : string;
+    public function devolver() : string;
     public function isDisponivel() : bool;
 }
-
